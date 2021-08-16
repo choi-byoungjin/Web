@@ -4,7 +4,7 @@
   <title>WEB1 - JavaScript</title>
   <meta charset="utf-8">
     <script>
-    function nightDayHandler(self){
+    function nightDayHandler(self){//매개변수  self로 주고 this -> self로 변경
       var target = document.querySelector('body');
       if(self.value === 'night'){
         target.style.backgroundColor = 'black';
