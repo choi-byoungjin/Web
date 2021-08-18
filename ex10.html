@@ -17,7 +17,13 @@
       coworkers.bookkeeper = "duru";
       document.write("bookkeeper : "+coworkers.bookkeeper+"<br>");
       coworkers["data scientist"] = "taeho";
-      document.write("data scientist : "+["data scientist"]+"<br>");
+      document.write("data scientist : "+coworkers["data scientist"]+"<br>");
+    </script>
+    <h2>Iterate</h2>
+    <script>
+      for(var key in coworkers){
+        document.write(coworkers[key]+'<br>')
+      }
     </script>
   </body>
 </html>
