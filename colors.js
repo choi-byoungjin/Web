@@ -27,7 +27,7 @@ function nightDayHandler(self){//매개변수  self로 주고 this -> self로 �
     Body.setBackgroundColor('black');
     Body.setColor('salmon');
     self.value = 'day';
-    Links.setColor('powderblue');
+    Links.setColor('white');
   } else {
     Body.setBackgroundColor('white');
     Body.setColor('black');
